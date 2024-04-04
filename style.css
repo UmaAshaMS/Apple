@@ -1,13 +1,21 @@
-
+body{
+    padding: 0;
+    margin: 0;
+}
 .navbar-nav{
     display: flex;
+    align-items: center;
 }
 .body{
     margin:2px;
     
 }
 .navbar{
-    height: 44px;;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2d2d7;
+    
 }
 .navbar-nav .nav-item .nav-link{
     
@@ -16,7 +24,7 @@
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: -.01em;
     line-height: 1;
-    color: rgb(71, 68, 68);
+    color: rgb(50, 48, 48);
     justify-content: center;
     padding-top: 5px;
     margin-left: 18px;
@@ -28,13 +36,8 @@
     color:black;
 }
 
-.navbar-nav .nav-item .nav-link .dropdown-content{
-    display: none;
-}
 
-.navbar-nav .nav-item .nav-link:hover .dropdown-content{
-    display: block;
-}
+
 /*The contents in each row is styled here, it takes the whole space and the position is relative. */
 .Contents{
     max-width: 100%;
@@ -192,4 +195,170 @@
 .footer p{
     color:#d2d2d7;
     font-size: 12px;
+}
+/*Media queries 375*/
+@media screen and (max-width:375px) {
+    .Label-Devices h1{
+        font-size: 14px;    
+    }
+
+    .Label-Devices p{
+        font-size: 10px;
+    }
+    
+}
+/*Apple Conference*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid1 h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple Vision Pro*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid2 h5{
+        font-size: 14px;    
+    }
+
+    
+}
+
+/*Apple watch*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*iPad*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple card*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid-Card h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Traade In*/
+@media screen and (max-width:375px) {
+    .Label-Devices-Grid-Trade h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Media queries 425*/
+@media screen and (max-width:425px) {
+    .Label-Devices h1{
+        font-size: 14px;    
+    }
+
+    .Label-Devices p{
+        font-size: 10px;
+    }
+    
+}
+/*Apple Conference*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid1 h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple Vision Pro*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid2 h5{
+        font-size: 14px;    
+    }
+
+    
+}
+
+/*Apple watch*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*iPad*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple card*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid-Card h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Traade In*/
+@media screen and (max-width:425px) {
+    .Label-Devices-Grid-Trade h5{
+        font-size: 14px;    
+    }
+    
+}
+
+/*Media queries 768*/
+@media screen and (max-width:768px) {
+    .Label-Devices h1{
+        font-size: 16px;    
+    }
+
+    .Label-Devices p{
+        font-size: 12px;
+    }
+    
+}
+/*Apple Conference*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid1 h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple Vision Pro*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid2 h5{
+        font-size: 14px;    
+    }
+
+    
+}
+
+/*Apple watch*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*iPad*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid-Watch h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Apple card*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid-Card h5{
+        font-size: 14px;    
+    }
+    
+}
+/*Traade In*/
+@media screen and (max-width:768px) {
+    .Label-Devices-Grid-Trade h5{
+        font-size: 14px;    
+    }
+    
 }
