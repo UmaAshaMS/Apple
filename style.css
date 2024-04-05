@@ -1,6 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+
+    
 }
 .navbar-nav{
     display: flex;
@@ -362,3 +365,34 @@ body{
     }
     
 }
+
+.container {
+    overflow-x: hidden; /* Apply overflow-x: hidden; to all dimensions */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      /* Add styles for smaller screen sizes */
+      overflow-x: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 425px) { 
+    
+    .container {
+      /* Add styles for even smaller screen sizes */
+      overflow-x: hidden;
+
+    }
+}
+    @media screen and (max-width: 375px) {
+        .container {
+          /* Add styles for even smaller screen sizes */
+          overflow-x: hidden;
+    
+        }
+
+  }
+  
+
+  
