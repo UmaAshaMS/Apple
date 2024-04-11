@@ -202,7 +202,8 @@ body{
 /*Media queries 375*/
 @media screen and (max-width:375px) {
     .Label-Devices h1{
-        font-size: 14px;    
+        font-size: 14px;  
+        overflow: hidden;  
     }
 
     .Label-Devices p{
